@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add new Property"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slogan_category"
+        android:layout_marginTop="30dp"
+        android:text="Properties for Buy"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buy"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/apartment_buy"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/apartmentpic"
+            />
+        <ImageView
+            android:id="@+id/house_buy"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/housephoto"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_marginTop="30dp"
+        android:text="Properties for Rent"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/apartment_rent"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/apartment"
+            />
+        <ImageView
+            android:id="@+id/house_rent"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/houseimage"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/auction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_marginTop="30dp"
+        android:text="Properties for Auction"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auction"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="35dp">
+
+        <ImageView
+            android:id="@+id/apartment_auction"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/background"
+            />
+        <ImageView
+            android:id="@+id/house_auction"
+            android:layout_width="165dp"
+            android:layout_height="80dp"
+            android:src="@drawable/housepic"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/admin_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textAllCaps="false"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1092826562750",
+    "firebase_url": "https://building-block-db5e2.firebaseio.com",
+    "project_id": "building-block-db5e2",
+    "storage_bucket": "building-block-db5e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092826562750:android:0558555f9109a906755eef",
+        "android_client_info": {
+          "package_name": "com.example.buildingblock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092826562750-i9k10hokhnov00g428vb4r05lfquenq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buildingblock",
+            "certificate_hash": "04de31665ede9d97534db0cb390046fe21a767b7"
+          }
+        },
+        {
+          "client_id": "1092826562750-kurpud0sgvrfepfg95ntqvedghhv6pvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXyn-1kMgdeSHCYhEGYTrA9YFp_MAbpes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092826562750-kurpud0sgvrfepfg95ntqvedghhv6pvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

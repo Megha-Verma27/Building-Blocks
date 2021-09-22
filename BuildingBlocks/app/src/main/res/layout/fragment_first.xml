@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/apartment"
+        android:padding="5dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonApartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apartment"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/house"
+        android:padding="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonHouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="House"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/flat"
+        android:padding="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonFlat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flat"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/button_rounded"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
